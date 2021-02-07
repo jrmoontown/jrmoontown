@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+android:text="ON"
+        android:textSize="30dp"
+        android:textColor="#BF5A0C"
+        android:id="@+id/btn"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="OFF"
+        android:textSize="30dp"
+        android:textColor="#BF5A0C"
+        android:id="@+id/btn_off"
+        />
+
+    <WebView
+        android:id="@+id/WebView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        />
+
+</LinearLayout>
